@@ -1,7 +1,10 @@
 .hero-image {
-    background: url("../images/chezjesse.png") center/cover no-repeat;
-    height: 300px;
+  background-image: url("/chezjesse.png");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
 }
+
 
 body {
     margin: 0;
@@ -34,9 +37,6 @@ img {
     border-radius: 10px;
 }
 
-.username {
-    font-weight: bold;
-}
 
 /* Locatie sectie layout */
 .locatie-container {
@@ -74,25 +74,11 @@ img {
     align-items: center;
 }
 
-.rij {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
 
 .rij img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 10px;
 }
 
-/* Onderste rij gecentreerd onder foto 2 en 3 */
-.rij-onder {
-    justify-content: center;
-}
-
-.spacer {
-    width: 200px;
-    height: 1px;
-}
