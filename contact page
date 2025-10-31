@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Chez Jesse - Contact</title>
+</head>
+
+<body>
+    <div class="hero-image"></div>
+    <header>
+        <nav>
+                <a href="home.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main >
+        <h2>Contacteer ons</h2>
+
+            <h3>Adres</h3>
+            <p>Hogerheistraat 54<br>1880 Kapelle-op-den-Bos<br>België</p>
+
+            <h3>Openingsuren</h3>
+            <ul>
+                <li>Ma - Vr: 17u - 22u</li>
+                <li>Za - Zo: 12u - 23u</li>
+                <li>Dinsdag gesloten</li>
+            </ul>
+
+            <h3>Contactgegevens</h3>
+            <p>Telefoon: 061 16 42 11<br>Email: info@chezjesse.be</p>
+        
+        <h2>Ons restaurant</h2>
+        <img src="../images/nachtegaal.png" alt="Ons restaurant">
