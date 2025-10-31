@@ -2,7 +2,7 @@
 <html lang="nl">
 
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles.css">
     <meta charset="UTF-8">
     <title>Chez Jesse - Contact</title>
 </head>
@@ -11,9 +11,9 @@
     <div class="hero-image"></div>
     <header>
         <nav>
-                <a href="home.html">Home</a>
-                <a href="menu.html">Menu</a>
-                <a href="contact.html">Contact</a>
+            <a href="/index.html">Home</a>
+            <a href="/menu.html">Menu</a>
+            <a href="/contact.html">Contact</a>
         </nav>
     </header>
 
@@ -34,4 +34,4 @@
             <p>Telefoon: 061 16 42 11<br>Email: info@chezjesse.be</p>
         
         <h2>Ons restaurant</h2>
-        <img src="../images/nachtegaal.png" alt="Ons restaurant">
+        <img src="/nachtegaal.png" alt="Ons restaurant">
