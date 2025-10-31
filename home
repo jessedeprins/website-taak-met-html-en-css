@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Chez Jesse - Home</title>
+</head>
+<body>
+    <div class="hero-image"></div>
+
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h3>Welkom bij Chez Jesse</h3>
+            <p>
+                Bij Chez Jesse kan je genieten van een klassieke Belgische keuken met heerlijke, authentieke smaken. Wij serveren gerechten van topkwaliteit aan een eerlijke prijs, zodat je altijd waar krijgt voor je geld. Ons doel? Jou een eetervaring bezorgen die je niet snel zal vergeten.
+            </p>
+        </section>
+
+        <section>
+            <h4>Over ons</h4>
+            <p>
+                Ik ben Jesse, de oprichter van Chez Jesse.
+                Ik vind dat iedereen recht heeft op lekker en kwaliteitsvol eten zonder daar te veel voor te betalen.
+                Dat is precies waar Chez Jesse voor staat: smakelijke gerechten, eerlijke prijzen en een warme sfeer.
+            </p>
+            <p>
+                Wat ooit begon als een simpele passie voor koken, 
+                is uitgegroeid tot een gezellige plek waar smaak, gastvrijheid en sfeer samenkomen.
+            </p>
+            <p>
+                In onze keuken werken we met verse ingrediënten en kiezen we zoveel mogelijk voor duurzame producten.
+                Elk gerecht wordt met zorg bereid — of het nu gaat om een klassieker of een moderne creatie — altijd met respect voor het seizoen.
+            </p>
+            <p>
+                Bij Chez Jesse draait het niet alleen om lekker eten, 
+                maar om de hele beleving: een vriendelijke ontvangst, een ontspannen sfeer en een plek waar iedereen zich thuis voelt. 
+                Of je nu langskomt voor een snelle lunch,
+                een gezellig diner of een speciale gelegenheid, wij zorgen ervoor dat je geniet van elk moment.
+            </p>
+        </section>
+
+        <section class="locatie">
+            <div class="locatie-container">
+                <div class="locatie-tekst">
+                    <h4>Waar vind je ons?</h4>
+                    <p>Adres: Hogerheistraat 54, Kapelle-op-den-Bos</p>
+                </div>
+                <div class="locatie-afbeelding">
+                    <a href="https://www.google.com/maps/place/Hogerheistraat+54,+1880+Kapelle-op-den-Bos/@51.004786,4.3469123,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3e94f631cac55:0x795b9a40bb9ea079!8m2!3d51.0047827!4d4.3494872!16s%2Fg%2F11hfm_njdx?entry=ttu&g_ep=EgoyMDI1MTAyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                    <img src="../images/image.png" alt="Vooraanzicht van Chez Jesse restaurant">
+                </a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
