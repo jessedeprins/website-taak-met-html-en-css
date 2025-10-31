@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles.css">
     <meta charset="UTF-8">
     <title>Chez Jesse - Home</title>
 </head>
@@ -10,9 +10,9 @@
 
     <header>
         <nav>
-            <a href="home.html">Home</a>
-            <a href="menu.html">Menu</a>
-            <a href="contact.html">Contact</a>
+            <a href="/index.html">Home</a>
+            <a href="/menu.html">Menu</a>
+            <a href="/contact.html">Contact</a>
         </nav>
     </header>
 
@@ -55,7 +55,7 @@
                 </div>
                 <div class="locatie-afbeelding">
                     <a href="https://www.google.com/maps/place/Hogerheistraat+54,+1880+Kapelle-op-den-Bos/@51.004786,4.3469123,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3e94f631cac55:0x795b9a40bb9ea079!8m2!3d51.0047827!4d4.3494872!16s%2Fg%2F11hfm_njdx?entry=ttu&g_ep=EgoyMDI1MTAyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
-                    <img src="../images/image.png" alt="Vooraanzicht van Chez Jesse restaurant">
+                    <img src="/image.png" alt="Vooraanzicht van Chez Jesse restaurant">
                 </a>
                 </div>
             </div>
