@@ -1,84 +1,101 @@
+/* Hero-afbeelding bovenaan */
 .hero-image {
-  background-image: url("/chezjesse.png");
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-}
-
-
-body {
-    margin: 0;
+    background-image: url("../images/chezjesse.png");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+  
+  /* Algemene opmaak */
+  body {
     font-family: Arial, sans-serif;
-}
-
-header {
+    margin: 0;
+  }
+  
+  header {
     background: lightgray;
     padding: 20px;
-}
-
-nav a {
+  }
+  
+  nav a {
     margin-right: 15px;
     color: black;
     text-decoration: none;
-    background: lightgray;
-}
-
-main {
+  }
+  
+  main {
     padding: 20px;
     background: lightgray;
-}
-
-section {
-    margin-bottom: 20px;
-    background: lightgray;
-}
-
-img {
-    border-radius: 10px;
-}
-
-
-/* Locatie sectie layout */
-.locatie-container {
+  }
+  
+  /* Locatie sectie layout */
+  .locatie-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
-}
-
-.locatie-tekst {
+  }
+  
+  .locatie-tekst {
     flex: 1;
     min-width: 200px;
-}
-
-.locatie-afbeelding {
+  }
+  
+  .locatie-afbeelding {
     flex: 1;
     min-width: 200px;
-}
-
-.locatie-afbeelding img {
+  }
+  
+  .locatie-afbeelding img {
     width: 100%;
     max-width: 400px;
-}
-
-.menu-galerij {
+  }
+   
+  .adresblok { /* toegevoegd om ongebruikte ruimte tussen het adres en de tussentitel weg te laten*/
+    margin-top: 0;
+    line-height: 1.4;
+  }
+  
+  /*  audio stijling */
+  audio {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 200px;
+  }
+  
+  /* Galerij */
+  .menu-galerij {
     text-align: center;
     margin: 40px auto;
-}
-
-.galerij-grid {
+  }
+  
+  .galerij-grid {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
-}
-
-
-.rij img {
+  }
+  
+  .rij img { /*zorgt dat alle fotos goed op een rijtje staan */
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
-}
-
+  }
+  
+  /* E-mail icoon */
+  .email-display {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .email-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
