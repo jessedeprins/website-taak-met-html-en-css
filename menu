@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="../code/styles.css">
     <meta charset="UTF-8">
     <title>Chez Jesse - Menu</title>
+    <link rel="icon" href="../images/favicon.png" type="image/png"> <!--icoontje toegevoed aan website-->
 </head>
 
+
 <body>
-    <div class="hero-image"></div>
+    <div class="hero-image"></div> <!--foto bovenaan van "chezjesse.png"-->
+    <audio controls >
+        <source src="../audio/music.mp3" type="audio/mpeg"> <!--muziek bestand van italiaanse achtergrond muziek voor de website-->
+        Je browser ondersteunt geen audio.
+      </audio>
+     
     <header>
-        <nav>
-            <a href="/index.html">Home</a>
-            <a href="/menu.html">Menu</a>
-            <a href="/contact.html">Contact</a>
+        <nav> <!--navigatie balk-->
+            <a href="../index.html">Home</a>
+            <a href="../code/menu.html">Menu</a>
+            <a href="../code/contact.html">Contact</a>
         </nav>
     </header>
 
+
     <main>
         <h2>Ons Menu</h2>
+
 
         <section>
             <h3>Voorgerechten</h3>
@@ -27,6 +36,7 @@
                 <li>Tomatensoep met balletjes - €5,50</li>
             </ul>
         </section>
+
 
         <section>
             <h3>Hoofdgerechten</h3>
@@ -42,6 +52,7 @@
             </ul>
         </section>
 
+
         <section>
             <h3>Desserts</h3>
             <ul>
@@ -50,6 +61,7 @@
                 <li>Chocolademousse - €5,50</li>
             </ul>
         </section>
+
 
         <section>
             <h3>Dranken</h3>
@@ -60,24 +72,25 @@
             </ul>
         </section>
 
-        <!--Fotogalerij met 6 fotos-->
+
+        <!--Fotogalerij met 8 fotos-->
         <section class="menu-galerij">
             <h3>Bekijk onze gerechten</h3>
             <div class="galerij-grid">
-                <div class="rij rij-boven">
-                    <img src="/gerecht1.png" alt="Gerecht 1">
-                    <img src="/gerecht2.png" alt="Gerecht 2">
-                    <img src="/gerecht3.png" alt="Gerecht 3">
-                    <img src="/gerecht4.png" alt="Gerecht 4">
+                <div class="rij rij-boven"> <!--Ik heb download toegevoegd voor als je op de foto klikt-->
+                    <a href="../images/gerecht1.png" download><img src="../images/gerecht1.png" alt="Gerecht 1"></a>
+                    <a href="../images/gerecht2.png" download><img src="../images/gerecht2.png" alt="Gerecht 2"></a>
+                    <a href="../images/gerecht3.png" download><img src="../images/gerecht3.png" alt="Gerecht 3"></a>
+                    <a href="../images/gerecht4.png" download><img src="../images/gerecht4.png" alt="Gerecht 4"></a>
                 </div>
-                <div class="rij rij-onder">
-                    <img src="/gerecht5.png" alt="Gerecht 5">
-                    <img src="/gerecht6.png" alt="Gerecht 6">
-                    <img src="/gerecht7.png" alt="Gerecht 7">
-                    <img src="/gerecht8.png" alt="Gerecht 8">
+                <div class="rij rij-onder"> <!--Ik heb download toegevoegd voor als je op de foto klikt-->
+                    <a href="../images/gerecht5.png" download><img src="../images/gerecht5.png" alt="Gerecht 5"></a>
+                    <a href="../images/gerecht6.png" download><img src="../images/gerecht6.png" alt="Gerecht 6"></a>
+                    <a href="../images/gerecht7.png" download><img src="../images/gerecht7.png" alt="Gerecht 7"></a>
+                    <a href="../images/gerecht8.png" download><img src="../images/gerecht8.png" alt="Gerecht 8"></a>
                 </div>
             </div>
-        </section>
+        </section>        
     </main>
 </body>
 </html>
